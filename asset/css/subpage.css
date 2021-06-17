@@ -1,0 +1,11 @@
+.sub_container_wrap {
+  position: relative;
+  background: url("../img/info/disclosure/bg_sub.png") no-repeat center 0px;
+}
+
+.sub_container_wrap .sub_content_wrap {
+  position: relative;
+  width: 1400px;
+  margin: 0 auto 30px;
+  overflow: hidden;
+}

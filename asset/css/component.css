@@ -1,0 +1,31 @@
+main .container {
+  position: relative;
+  width: 100%;
+  background: url(../img/bg_main.png) no-repeat center;
+  background-size: cover;
+}
+
+main .container .content {
+  position: relative;
+  padding: 40px 0 20px;
+}
+
+main .container .content .inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 360px;
+}
+
+main .container .content .inner .box {
+  height: 100%;
+  margin: 10px;
+}
+
+main .container .content .inner .swiper {
+  flex: 50%;
+}
+
+main .container .content .inner .box1 {
+  flex: 50%;
+}
