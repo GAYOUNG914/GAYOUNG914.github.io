@@ -115,12 +115,16 @@ $(function() {
     } else {
       slideUp();
       $(this).addClass('on').next().slideDown();
-      $(this).parent().addClss('on'); //여기 안됨
+      $(this).parent().addClass('on'); //여기 안됨
+      console.log($(this).parent())
+
     }
 
     function slideUp() {
       $('#navigation .menubox > li > a').removeClass('on').next().slideUp();
     };
+
+    return false
   });
 
 
