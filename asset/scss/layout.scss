@@ -6,7 +6,7 @@
     left: 0;*/
     height: 140px;
     z-index: 1100;
-    .header_wrap{
+    .header_wrap {
       position: relative;
       max-width: $siteWidth;
       margin: 0 auto;
@@ -21,30 +21,30 @@
         a {
           width: 132px;
           height: 50px;
-        }//top_log a
-      }//top_logo
-      p{
+        } //top_log a
+      } //top_logo
+      p {
         position: absolute;
         top: 25px;
         z-index: -1000;
         left: 2.5%;
       }
-      .logo_slogan{
+      .logo_slogan {
         margin-left: 150px;
       }
-      .innogov{
+      .innogov {
         margin-left: 290px;
       }
-      .toputil{
+      .toputil {
         display: flex;
         position: absolute;
         right: 50%;
         top: 0;
         margin-right: -700px;
         z-index: 15;
-        li{
+        li {
           padding: 5px;
-          &:after{
+          &:after {
             content: "";
             display: block;
             width: 1px;
@@ -53,27 +53,27 @@
             margin: 6px 0 0 20px;
             float: right;
           }
-          &:last-child:after{
+          &:last-child:after {
             content: "";
             display: none;
           }
-          &:nth-of-type(2){
-            img{
-            transform: translateY(4px);
-            margin-right: 2px
+          &:nth-of-type(2) {
+            img {
+              transform: translateY(4px);
+              margin-right: 2px;
             }
           }
-        }//toputil li
-        .toputil_icons{
+        } //toputil li
+        .toputil_icons {
           display: flex;
-          a{
+          a {
             padding: 0 2px;
           }
-        }//topuil_icons
-      }//topuil
-      .search_wrap{
+        } //topuil_icons
+      } //topuil
+      .search_wrap {
         line-height: 35px;
-        .search{
+        .search {
           position: absolute;
           width: 560px;
           right: 50%;
@@ -82,16 +82,16 @@
           z-index: 15;
           border-radius: 5px;
           border: 3px solid $fontTileColorPrimary;
-          input{
+          input {
             width: 500px;
             border: none;
             font-size: 14px;
             padding-left: 10px;
-            background-color: rgba(0,0,0,0);
+            background-color: rgba(0, 0, 0, 0);
           }
-        }//search
-        a{
-          .search_icon{
+        } //search
+        a {
+          .search_icon {
             position: absolute;
             right: 0;
             top: 43px;
@@ -102,16 +102,16 @@
             background: $fontTileColorPrimary url("../img/btn_search.png") no-repeat center center;
           }
         }
-      }//search_wrap
-    }//header_wrap
-    #navigation{
+      } //search_wrap
+    } //header_wrap
+    #navigation {
       height: 50px;
       border-bottom: none;
       background: #00223f;
       position: relative;
       width: auto;
       overflow: hidden; //자스로 이거 없애야할듯?
-      #blind{
+      #blind {
         position: absolute;
         left: 0;
         top: 50px;
@@ -120,45 +120,44 @@
         z-index: 3;
         background: #fff;
       }
-      #gnb{
+      #gnb {
         position: relative;
         max-width: 1400px;
         margin: 0 auto;
         z-index: 10;
-        border-bottom: 1px solid #ccc;
-        ul.gnb_group{
+        ul.gnb_group {
           position: relative;
           margin-right: 50px;
           display: flex;
-          li.menu{
+          li.menu {
             width: 20%;
-            &:first-child{
-              a{
-                span{
-                  &:before{
+            &:first-child {
+              a {
+                span {
+                  &:before {
                     display: none;
                   }
                 }
               }
-              ul.menubox{
+              ul.menubox {
                 border-left: 0;
               }
-            }//li.menu:first-child
-            a{
+            } //li.menu:first-child
+            a {
               position: relative;
               display: block;
               text-align: center;
               font-size: 20px;
               letter-spacing: -1px;
               color: #666;
-              span{
+              span {
                 display: block;
                 position: relative;
                 font-size: 20px;
                 height: 50px;
                 line-height: 50px;
                 color: #fff;
-                &:before{
+                &:before {
                   content: "";
                   position: absolute;
                   left: 0;
@@ -168,9 +167,9 @@
                   margin-top: -9px;
                   background: url("../img/line_nav.png") no-repeat;
                 }
-              }//span
-            }//a
-            ul.menubox{
+              } //span
+            } //a
+            ul.menubox {
               height: 389px;
               display: none;
               position: relative;
@@ -190,75 +189,75 @@
               //     background: rgba(225,225,225,0.1);
               //   }
               // } navigation이 hover 되면 menubox display: block;된다
-              li.menubox_li{
+              li.menubox_li {
                 float: none;
                 width: 100%;
                 margin: 1px 0 0;
                 position: relative;
-                a.menubox_title{
+                a.menubox_title {
                   font-size: 15px;
                   padding: 10px 50px 10px 25px;
                   color: #333;
                   text-align: left;
                   background: #fff;
-                  &.on{
+                  &.on {
                     color: #fff;
                     background: #053863;
                     display: block;
                     line-height: 20px; //변경해야할수도
                   }
-                }//a.menubox_title
-                  &:before{
-                    content: "";
-                    position: absolute;
-                    width: 11px;
-                    height: 1px;
-                    right: 25px;
-                    top: 20px;
-                    background: #333;
-                    z-index: 4;
+                } //a.menubox_title
+                &:before {
+                  content: "";
+                  position: absolute;
+                  width: 11px;
+                  height: 1px;
+                  right: 25px;
+                  top: 20px;
+                  background: #333;
+                  z-index: 4;
+                }
+                &:after {
+                  content: "";
+                  position: absolute;
+                  width: 1px;
+                  height: 11px;
+                  right: 30px;
+                  top: 15px;
+                  background: #333;
+                  z-index: 4;
+                }
+                &.on {
+                  float: none;
+                  width: 100%;
+                  margin: 1px 0 0;
+                  position: relative;
+                  &:before {
+                    background: #fff;
+                    z-index: 5;
                   }
-                  &:after{
-                    content: "";
-                    position: absolute;
-                    width: 1px;
-                    height: 11px;
-                    right: 30px;
-                    top: 15px;
-                    background: #333;
-                    z-index: 4;
+                  &:after {
+                    background: #053863;
                   }
-                  &.on{
-                    float: none;
-                    width: 100%;
-                    margin: 1px 0 0;
-                    position: relative;
-                    &:before{
-                      background: #fff;
-                      z-index: 5;
-                    }
-                    &:after{
-                      background: #053863;
-                    }
-                  }
-                ul{
+                }
+                ul {
                   // opacity: 0;
                   display: none;
                   position: relative;
                   padding: 10px 20px;
                   background: #fff;
-                  li{
+                  li {
                     float: none;
                     width: 100%;
                     position: relative;
-                    a{
+                    a {
                       position: relative;
                       padding: 4px 0 4px 10px;
                       line-height: 20px;
                       font-size: 14px;
                       color: #000;
                       text-align: left;
-                      &:before{
+                      &:before {
                         content: "";
                         width: 2px;
                         height: 2px;
@@ -271,37 +270,36 @@
                   }
                 }
               }
-            }//menubox
-          }//.menu
-        }//#gnb > .group
-      }//#gnb
-    }//#navigation
-  }//header
+            } //menubox
+          } //.menu
+        } //#gnb > .group
+      } //#gnb
+    } //#navigation
+  } //header
 }
 
-
-#footer{
+#footer {
   position: relative;
   background: #e5e5e5 url("../img/footer/bg_ft.png") repeat-x left top;
-  .footer_top{
+  .footer_top {
     position: relative;
     width: 1400px;
     margin: 0 auto;
-    .row{
+    .row {
       display: flex;
       justify-content: space-between;
-      .footer_left{
+      .footer_left {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        li{
-          a{
+        li {
+          a {
             position: relative;
             display: block;
             line-height: 50px;
             margin-right: 17px;
             font-size: $fontSizeNormalSmall;
-            &:before{
+            &:before {
               content: "";
               display: block;
               clear: both;
@@ -313,36 +311,36 @@
               background: #cfcfcf;
             }
           }
-          &:first-child{
-            a{
-              &:before{
+          &:first-child {
+            a {
+              &:before {
                 content: none;
               }
             }
           }
-          &:nth-of-type(4){
-            a{
-              strong{
+          &:nth-of-type(4) {
+            a {
+              strong {
                 color: #e40a2e;
                 font-weight: 500;
               }
             }
           }
         }
-      }//footer_left
-      .footer_right{
+      } //footer_left
+      .footer_right {
         display: flex;
         justify-content: flex-end;
         align-items: center;
         font-size: $fontSizeNormalSmall;
         width: 579px;
         border-right: 1px solid #b9b9b9;
-        li{
+        li {
           position: relative;
           width: 50%;
           height: 100%;
           z-index: 999;
-          a{
+          a {
             position: absolute;
             display: block;
             width: 100%;
@@ -351,7 +349,7 @@
             text-align: left;
             color: $fontColorPrimary;
             border-left: 1px solid #b9b9b9;
-            &:before{
+            &:before {
               content: "";
               position: absolute;
               right: 27px;
@@ -360,7 +358,7 @@
               height: 17px;
               background: #000000;
             }
-            &:after{
+            &:after {
               content: "";
               position: absolute;
               right: 19px;
@@ -369,19 +367,19 @@
               height: 1px;
               background: #000;
             }
-            span{
+            span {
               padding-left: 30px;
               display: block;
               margin: 15px 50px 15px 0;
               line-height: 20px;
               border-right: 1px solid #6a7280;
             }
-          }//a
-        }//li
-      }//footer_right
-    }//row
-  }//footer_top
-  .box_info{
+          } //a
+        } //li
+      } //footer_right
+    } //row
+  } //footer_top
+  .box_info {
     width: 1400px;
     margin: 0 auto;
     position: relative;
@@ -389,19 +387,19 @@
     line-height: 26px;
     font-size: 14px;
     box-sizing: border-box;
-    .f_logo{
+    .f_logo {
       position: absolute;
       left: 0;
       top: 10px;
-    }//f_logo
-    address{
+    } //f_logo
+    address {
       font-style: normal;
-      span{
+      span {
         position: relative;
         margin-left: 15px;
         padding-left: 15px;
-        a{
-          &:after{
+        a {
+          &:after {
             content: "";
             position: absolute;
             left: 0;
@@ -411,11 +409,11 @@
             background: #333;
           }
         }
-      }//span
-    }//address
-    .copyright{
+      } //span
+    } //address
+    .copyright {
       color: #6d6d6d;
       margin: 0;
     }
-  }//box_info
-}//#footer
+  } //box_info
+} //#footer
