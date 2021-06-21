@@ -1,53 +1,64 @@
 /*initial css*/
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+* {
   margin: 0;
   padding: 0;
 }
-html,body{
+html,
+body {
   height: 100%;
+  min-width: 1400px;
 }
 
-body{
+body {
   background-color: #fff;
   color: $fontColorPrimary;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
-html,body,ul,li,h1,h2,h3,h4,h5,h6{
+html,
+body,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   padding: 0;
   font-weight: 500;
 }
 
-li{
+li {
   list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
-  transition: .5s;
+  transition: 0.5s;
   color: $fontColorBasic;
 }
-table{
+table {
   border-spacing: 0;
 }
 
-.mgt10{
+.mgt10 {
   margin-top: 10px !important;
 }
-.mgt20{
+.mgt20 {
   margin-top: 20px !important;
 }
-.mgt30{
+.mgt30 {
   margin-top: 30px !important;
 }
-.mgb10{
+.mgb10 {
   margin-bottom: 10px !important;
 }
-.mgb20{
+.mgb20 {
   margin-bottom: 20px !important;
 }
-.mgb30{
+.mgb30 {
   margin-bottom: 30px !important;
 }
